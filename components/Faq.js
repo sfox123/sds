@@ -6,22 +6,22 @@ const Faq = () => {
     {
       id: 1,
       title: "How can I schedule a consultation for my project?",
-      desc: "Møork undertakes a diverse range of projects, including high-rise buildings, urban planning, interior architecture, and sustainable developments. Explore our 'Our Projects' section for insights into our portfolio.",
+      desc: "SDS undertakes a diverse range of projects, including fire safety, electrical, plumbing and maintenance solutions. Explore our 'Our Projects' section for insights into our portfolio.",
     },
     {
       id: 2,
-      title: "How can I join Møork's workshops?",
-      desc: "Møork undertakes a diverse range of projects, including high-rise buildings, urban planning, interior architecture, and sustainable developments. Explore our 'Our Projects' section for insights into our portfolio.",
+      title: "How can I join SDS's workshops?",
+      desc: "SDS undertakes a diverse range of projects, including fire safety, electrical, plumbing and maintenance solutions. Explore our 'Our Projects' section for insights into our portfolio.",
     },
     {
       id: 3,
-      title: "Can I subscribe to receive updates from Møork?",
-      desc: "Møork undertakes a diverse range of projects, including high-rise buildings, urban planning, interior architecture, and sustainable developments. Explore our 'Our Projects' section for insights into our portfolio.",
+      title: "Can I subscribe to receive updates from SDS?",
+      desc: "SDS undertakes a diverse range of projects, including fire safety, electrical, plumbing and maintenance solutions. Explore our 'Our Projects' section for insights into our portfolio.",
     },
     {
       id: 4,
-      title: "Can I subscribe to receive updates from Møork?",
-      desc: "Møork undertakes a diverse range of projects, including high-rise buildings, urban planning, interior architecture, and sustainable developments. Explore our 'Our Projects' section for insights into our portfolio.",
+      title: "Can I subscribe to receive updates from SDS?",
+      desc: "SDS undertakes a diverse range of projects, including fire safety, electrical, plumbing and maintenance solutions. Explore our 'Our Projects' section for insights into our portfolio.",
     },
   ];
   const [active, setActive] = useState(0);

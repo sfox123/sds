@@ -12,7 +12,7 @@ const CallToAction = () => {
               </div>
               <h2 className="mil-h2 mil-light mil-mb-30 mil-up">
                 Our methodology: <br />
-                Møor-GT
+                SDS-GT
               </h2>
               <p className="mil-light mil-mb-50 mil-up">
                 Discover how we shape the future with focus and a distinctive
@@ -38,7 +38,7 @@ const CallToAction = () => {
               </h2>
               <p className="mil-light mil-mb-50 mil-up">
                 Immerse yourself in our dynamic portfolio and experience the
-                architectural excellence that defines Møork.
+                engineering excellence that defines SDS.
               </p>
               <div className="mil-up">
                 <Link

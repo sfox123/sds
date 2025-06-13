@@ -13,9 +13,11 @@ const page = () => {
             <div className="col-xl-6">
               <div className="mil-banner-text-frame">
                 <div className="mil-banner-text">
-                  <div className="mil-suptitle mil-mb-30">ARCHITECTURE</div>
+                  <div className="mil-suptitle mil-mb-30">
+                    FIRE &amp; CIVIL ENGINEERING
+                  </div>
                   <h1 className="mil-display-2 mil-mb-60">
-                    We build innovative urban spaces
+                    Protecting lives through engineered safety
                   </h1>
                   <Link href="works-1" className="mil-btn mil-btn-border">
                     Explore projects
@@ -40,14 +42,12 @@ const page = () => {
               <div className="mil-suptitle mil-sm mil-accent mil-mb-30 mil-up">
                 About us
               </div>
-              <h2 className="mil-mb-30 mil-up">
-                Shaping the architectural future
-              </h2>
+              <h2 className="mil-mb-30 mil-up">About Us</h2>
               <p className="mil-mb-50 mil-up">
-                Welcome to Møork, where architectural innovation meets a legacy
-                of excellence. Founded in 2010, we have been at the forefront of
-                redefining urban landscapes, combining creativity and addressing
-                the changing needs of contemporary living.
+                SDS CIVIL &amp; FIRE SECURITY ENGINEERING (PVT) LTD offers
+                end‑to‑end fire protection and engineering services.
+                Our experienced team designs, installs and maintains systems
+                that keep facilities safe and compliant.
               </p>
               <div className="mil-up">
                 <Link href="about" className="mil-btn mil-btn-sm">
@@ -326,9 +326,8 @@ const page = () => {
                 Exploring Architectural Marvels
               </h2>
               <p className="mil-mb-100 mil-up">
-                Step into the realm of Møork's projects, where each endeavor is
-                a testament to our passion for innovative design and
-                architectural excellence.
+                Explore our recent installations and engineering solutions,
+                demonstrating our commitment to safety and reliability.
               </p>
             </div>
           </div>
@@ -645,8 +644,8 @@ const page = () => {
                 Сontact us to discuss the details
               </h2>
               <p className="mil-light mil-mb-50 mil-up">
-                Contact us today to embark on a journey of collaborative design
-                and architectural brilliance.
+                Talk to our experts today about safeguarding your premises with
+                reliable fire and building services.
               </p>
               <div className="mil-up">
                 <Link

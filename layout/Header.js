@@ -146,7 +146,7 @@ const Header1 = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo mil-logo-sm">
-              <img loading="lazy" src="img/logo-4.png" alt="Moork" />
+              <img loading="lazy" src="img/logo-4.png" alt="SDS" />
             </Link>
             <nav>
               <ul className={`mil-navigation ${toggle ? "mil-active" : ""}`}>
@@ -182,7 +182,7 @@ const Header2 = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo mil-logo-sm">
-              <img loading="lazy" src="img/logo-5.png" alt="Moork" />
+              <img loading="lazy" src="img/logo-5.png" alt="SDS" />
             </Link>
             <nav>
               <ul
@@ -224,7 +224,7 @@ const Header3 = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo mil-logo-sm">
-              <img loading="lazy" src="img/logo-4.png" alt="Moork" />
+              <img loading="lazy" src="img/logo-4.png" alt="SDS" />
             </Link>
           </div>
           <div className="mil-right">
@@ -258,7 +258,7 @@ const Header4 = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo mil-logo-sm">
-              <img loading="lazy" src="img/logo-4.png" alt="Moork" />
+              <img loading="lazy" src="img/logo-4.png" alt="SDS" />
             </Link>
           </div>
           <div className="mil-right">
@@ -288,7 +288,7 @@ const Header5 = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo mil-logo-sm">
-              <img loading="lazy" src="img/logo-5.png" alt="Moork" />
+              <img loading="lazy" src="img/logo-5.png" alt="SDS" />
             </Link>
             <nav>
               <ul
@@ -328,7 +328,7 @@ const Header6 = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo">
-              <img loading="lazy" src="img/logo-2.png" alt="Moork" />
+              <img loading="lazy" src="img/logo-2.png" alt="SDS" />
             </Link>
           </div>
           <div className="mil-right">
@@ -358,7 +358,7 @@ const DefaultHeader = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo">
-              <img loading="lazy" src="img/logo-1.png" alt="Moork" />
+              <img loading="lazy" src="img/logo-1.png" alt="SDS" />
             </Link>
             <nav>
               <ul

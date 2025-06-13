@@ -17,21 +17,17 @@ const page = () => {
               <div className="mil-suptitle mil-sm mil-accent mil-mb-30 mil-up">
                 ABOUT US
               </div>
-              <h2 className="mil-mb-30 mil-up">
-                shaping the architectural future
-              </h2>
+              <h2 className="mil-mb-30 mil-up">Who We Are</h2>
               <p className="mil-text-22 mil-mb-30 mil-up">
-                At Møork, our passion for architecture is reflected in every
-                project we undertake. Since 2010, we have combined experience,
-                innovation and adaptability to shape modern and functional
-                environments.
+                SDS CIVIL &amp; FIRE SECURITY ENGINEERING (PVT) LTD provides
+                complete fire protection and building service solutions across
+                Sri Lanka. Drawing on extensive industry experience, we deliver
+                reliable systems that safeguard lives and property.
               </p>
               <p className="mil-up">
-                With a diverse team of more than 60 employees of 8
-                nationalities, spread across New York, Istanbul and Hong Kong,
-                we are prepared to address the ever-evolving urban and
-                territorial challenges in the United States and around the
-                world.
+                Our expertise covers fire detection and suppression, electrical
+                power and ELV systems, plumbing and sanitary engineering, and
+                preventive maintenance for commercial and residential clients.
               </p>
             </div>
             <div className="col-xl-5 mil-mb-100">
@@ -107,40 +103,60 @@ const page = () => {
                 SERVICES
               </div>
               <h2 className="mil-mb-30 mil-light mil-up">
-                Exceptional Design, Infinite Solutions
+                Comprehensive Fire &amp; Building Services
               </h2>
               <p className="mil-up">
-                At Møork, we don't just offer services; we provide design
-                experiences that transform spaces and exceed expectations.
+                We deliver end‑to‑end solutions from initial design to
+                ongoing maintenance, ensuring your facilities remain safe and
+                operational.
               </p>
             </div>
             <div className="col-lg-6">
               <ul className="mil-service-list">
                 <li className="mil-mb-50 mil-up" data-count={1}>
                   <div className="mil-service-item">
-                    <h4 className="mil-light mil-mb-15">Interior Design</h4>
+                    <h4 className="mil-light mil-mb-15">
+                      Fire Protection &amp; Detection Systems
+                    </h4>
                     <p>
-                      Creation of captivating and functional environments for
-                      diverse spaces.
+                      Hydrant and hose reel networks, sprinklers and advanced
+                      suppression solutions.
                     </p>
                   </div>
                 </li>
                 <li className="mil-mb-50 mil-up" data-count={2}>
                   <div className="mil-service-item">
-                    <h4 className="mil-light mil-mb-15">Urban Planning</h4>
+                    <h4 className="mil-light mil-mb-15">
+                      Electrical Power, MV, LV &amp; ELV Systems
+                    </h4>
                     <p>
-                      We approach projects of any scale with a comprehensive
-                      approach.
+                      From power supply and lighting to building management and
+                      security integrations.
                     </p>
                   </div>
                 </li>
                 <li className="mil-mb-50 mil-up" data-count={3}>
                   <div className="mil-service-item">
-                    <h4 className="mil-light mil-mb-15">Small Group Work</h4>
+                    <h4 className="mil-light mil-mb-15">Plumbing &amp; Sanitary</h4>
                     <p>
-                      Unique composition that leaves its mark on each project,
-                      encouraging open dialogue and creativity.
+                      Hot and cold water, drainage solutions and wastewater
+                      treatment facilities.
                     </p>
+                  </div>
+                </li>
+                <li className="mil-mb-50 mil-up" data-count={4}>
+                  <div className="mil-service-item">
+                    <h4 className="mil-light mil-mb-15">Preventive Maintenance</h4>
+                    <p>
+                      Comprehensive upkeep programs for commercial and
+                      industrial sites.
+                    </p>
+                  </div>
+                </li>
+                <li className="mil-mb-50 mil-up" data-count={5}>
+                  <div className="mil-service-item">
+                    <h4 className="mil-light mil-mb-15">Gas Distribution</h4>
+                    <p>Centralized and balcony gas supply systems.</p>
                   </div>
                 </li>
               </ul>
