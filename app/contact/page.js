@@ -15,51 +15,36 @@ const page = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-4 mil-mb-50">
-              <h5 className="mil-mb-20">Main Office - Metropolis City</h5>
+              <h5 className="mil-mb-20">
+                SDS CIVIL &amp; FIRE SECURITY ENGINEERING (PVT) LTD
+              </h5>
               <p className="mil-mb-10">
                 Address:{" "}
                 <span className="mil-dark">
-                  888 Grand St. Unit #777, New York, <br />
-                  NY 707070, USA
+                  No 27, 4D, De Alwis Place , Dehiwala, Sri Lanka.
                 </span>
               </p>
-              <p className="mil-mb-20">
-                Telephone: <span className="mil-dark">+1 (555) 987-9365</span>
-              </p>
-              <a href="tel:+15559879365" className="mil-link mil-accent">
-                Contact this office
-              </a>
             </div>
             <div className="col-xl-4 mil-mb-50">
-              <h5 className="mil-mb-20">Branch - Design Coast</h5>
+              <h5 className="mil-mb-20">Contact Numbers</h5>
               <p className="mil-mb-10">
-                Address:{" "}
-                <span className="mil-dark">
-                  444 Grand Ave. Unit #69696, <br />
-                  New York, NY 121212, USA
-                </span>
+                Tel: <span className="mil-dark">0112730548</span>
               </p>
               <p className="mil-mb-20">
-                Telephone: <span className="mil-dark">+1 (555) 987-9351</span>
+                Mobile / WhatsApp:{" "}
+                <span className="mil-dark">077-6692306, 076-7262011</span>
               </p>
-              <a href="tel:+15559879365" className="mil-link mil-accent">
-                Contact this office
-              </a>
             </div>
             <div className="col-xl-4 mil-mb-50">
-              <h5 className="mil-mb-20">Innovation Center - Architectural</h5>
-              <p className="mil-mb-10">
-                Address:{" "}
-                <span className="mil-dark">
-                  797979 E 66th St 99th Floor, New York, NY 1009090, USA
-                </span>
-              </p>
+              <h5 className="mil-mb-20">Email Us</h5>
               <p className="mil-mb-20">
-                Telephone: <span className="mil-dark">+1 (555) 987-5362</span>
+                <a
+                  href="mailto:sdsconstruction77@gmail.com"
+                  className="mil-dark"
+                >
+                  sdsconstruction77@gmail.com
+                </a>
               </p>
-              <a href="tel:+15559879365" className="mil-link mil-accent">
-                Contact this office
-              </a>
             </div>
           </div>
         </div>
