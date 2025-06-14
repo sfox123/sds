@@ -16,7 +16,10 @@ const page = () => {
                   <div className="mil-suptitle mil-mb-30">
                     FIRE &amp; CIVIL ENGINEERING
                   </div>
-                  <h1 className="mil-display-2 mil-mb-60">
+                  <h1
+                    style={{ backgroundColor: "rgba(255, 255, 255, 0.6)" }}
+                    className="mil-display-2 mil-mb-60"
+                  >
                     Protecting lives through engineered safety
                   </h1>
                   <Link href="works-1" className="mil-btn mil-btn-border">
@@ -27,7 +30,7 @@ const page = () => {
             </div>
             <div className="col-xl-6">
               <div className="mil-banner-image-frame">
-                <img loading="lazy" src="img/home-1/1.jpg" alt="image" />
+                <img loading="lazy" src="img/home-1/1.png" alt="image" />
               </div>
             </div>
           </div>
@@ -45,9 +48,9 @@ const page = () => {
               <h2 className="mil-mb-30 mil-up">About Us</h2>
               <p className="mil-mb-50 mil-up">
                 SDS CIVIL &amp; FIRE SECURITY ENGINEERING (PVT) LTD offers
-                end‑to‑end fire protection and engineering services.
-                Our experienced team designs, installs and maintains systems
-                that keep facilities safe and compliant.
+                end‑to‑end fire protection and engineering services. Our
+                experienced team designs, installs and maintains systems that
+                keep facilities safe and compliant.
               </p>
               <div className="mil-up">
                 <Link href="about" className="mil-btn mil-btn-sm">
