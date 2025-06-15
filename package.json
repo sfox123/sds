@@ -9,11 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@portabletext/react": "^3.2.1",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.92.0",
     "gsap": "^3.12.5",
     "next": "14.2.3",
+    "next-sanity": "^9.12.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-is": "^19.1.0",
     "react-player": "^2.16.0",
+    "sanity": "^3.92.0",
+    "styled-components": "^6.1.19",
     "swiper": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/babel__generator": "^7.27.0",
+    "@types/shallow-equals": "^1.0.3",
+    "@types/stylis": "^4.2.7",
+    "@types/which": "^3.0.4"
   }
 }
