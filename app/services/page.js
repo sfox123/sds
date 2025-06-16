@@ -18,149 +18,127 @@ const page = () => {
       {/* services */}
       <div className="mil-p-200-100">
         <div className="container">
-          <div className="row justify-content-between">
-            <div className="col-xl-3">
-              <Link href="services" className="mil-service-side mil-mb-50">
-                <h5 className="mil-mb-15 mil-accent mil-up">
-                  Architectural design
-                </h5>
-                <p className="mil-up">
-                  Creation of captivating and functional environments for
-                  diverse spaces.
-                </p>
-              </Link>
-              <Link href="services" className="mil-service-side mil-mb-50">
-                <h5 className="mil-mb-15 mil-up">Urban Planning</h5>
-                <p className="mil-up">
-                  We approach projects of any scale with a comprehensive
-                  approach.
-                </p>
-              </Link>
-              <Link href="services" className="mil-service-side mil-mb-200">
-                <h5 className="mil-mb-15 mil-up">Small Group Work</h5>
-                <p className="mil-up">
-                  Unique composition that leaves its mark on each project,
-                  encouraging open dialogue and creativity.
-                </p>
-              </Link>
-            </div>
-            <div className="col-xl-8">
-              <div className="mil-suptitle mil-sm mil-accent mil-mb-30 mil-up">
-                ARCHITECTURAL DESIGN
-              </div>
-              <h2 className="mil-mb-30 mil-up">
-                Transforming Ideas into Unique Spaces
-              </h2>
-              <p className="mil-text-22 mil-mb-30 mil-up">
-                Our Architectural Design service goes beyond the creation of
-                structures; It is an artistic expression that fuses
-                functionality and aesthetics.
+          <div className="row">
+            <div className="col-lg-12">
+              <h3 className="mil-mb-30 mil-up">
+                Fire Protection and Detection systems
+              </h3>
+              <ul className="mil-mb-30 mil-up">
+                <li>Fire Hydrant/Hose Reel Systems</li>
+                <li>Fire Sprinkler Systems</li>
+                <li>FM 200/C02/Inert Gas Total Flooding Systems</li>
+                <li>Water Mist Suppression System</li>
+                <li>Kitchen Hood Suppression Systems</li>
+                <li>
+                  Addressable and Conventional Fire Detection and Alarm Systems
+                </li>
+                <li>
+                  Heat Detection and Early Warning (VESDA) Fire Detection
+                  Systems.
+                </li>
+              </ul>
+              <h3 className="mil-mb-30 mil-up">
+                Electrical Power, MV, LV &amp; ELV Systems
+              </h3>
+              <ul className="mil-mb-30 mil-up">
+                <li>Power Supply &amp; Lighting Systems</li>
+                <li>Lightning Protection &amp; Energy Management Solutions</li>
+                <li>Emergency Power &amp; UPS System</li>
+                <li>Building Management System</li>
+                <li>
+                  CCTV, IPTV, PA, PABX, Data &amp; Structured Cabling Solutions.
+                </li>
+              </ul>
+              <h3 className="mil-mb-30 mil-up">Plumbing &amp; Sanitary engineering</h3>
+              <ul className="mil-mb-30 mil-up">
+                <li>Hot and cold Water Supply Systems</li>
+                <li>Soil, Waste and storm Water Drainage Systems</li>
+                <li>Rain water Harvesting Systems</li>
+                <li>Waste Water, Sewerage and Effluent Treatment Plants</li>
+              </ul>
+              <h3 className="mil-mb-30 mil-up">Preventive Maintenance work</h3>
+              <p className="mil-mb-30 mil-up">
+                We do all kind of preventive maintenance works for Cooperate
+                Companies, Factories, Apartments, Hotels, Hospitals and
+                stadiums.
               </p>
-              <p className="mil-up mil-mb-50">
-                From innovative concepts to meticulous execution, our team of
-                industry-leading architects will transform your ideas into
-                extraordinary architectural spaces.
+              <h3 className="mil-mb-30 mil-up">
+                Centralized and Balcony Gas Distribution Systems
+              </h3>
+              <h3 className="mil-mb-30 mil-up">
+                MEP Services &amp; Civil works to suit your needs.
+              </h3>
+              <p className="mil-mb-30 mil-up">
+                We specialize in providing end to end mechanical, electrical and
+                plumbing services for your building project no matter what
+                scale. Our Civil department engage in supporting our clients to
+                build cost effective building including concrete and steel
+                structures.
               </p>
-              <div className="mil-image-simple mil-land mil-up mil-mb-100">
-                <img
-                  loading="lazy"
-                  src="img/services/2.png"
-                  alt="img"
-                  data-value-1={1}
-                  data-value-2="1.1"
-                  className="mil-scale-img"
-                />
-              </div>
-              <div className="row justify-content-between align-items-center">
-                <div className="col-xl-6 mil-mb-100">
-                  <div className="mil-suptitle mil-sm mil-accent mil-mb-30 mil-up">
-                    PERSONALIZED
+              <p className="mil-mb-30 mil-up">
+                Through our innovative processes, you can enjoy the perks of a
+                seamless transition from drawing– board to implementation and
+                beyond, all handled by the experts at SDS with guarantee that
+                your building project meets international MEP and Civil
+                standards.
+              </p>
+              <p className="mil-mb-30 mil-up">
+                We incorporate our process to your project’s development cycle,
+                working closely with all stakeholders to ensure proper
+                integration of electrical, mechanical and plumbing systems in
+                your building projects considering the progress of the Civil
+                works.
+              </p>
+              <p className="mil-mb-30 mil-up">
+                We provide comprehensive MEP services including designing,
+                engineering, material procurement, installation, testing,
+                commissioning, and handing over, facility management,
+                maintenance and staff training. Our Civil division takes
+                responsibilities to meet the entire function of the CIVIL
+                project cycle considering the customer needs and satisfaction.
+              </p>
+              <ul className="mil-service-list">
+                <li className="mil-up" data-count="1">
+                  <div className="mil-service-item">
+                    <h4 className="mil-mb-15">Fire Systems</h4>
                   </div>
-                  <h3 className="mil-mb-30 mil-up">Personalized design:</h3>
-                  <p className="mil-up mil-mb-30">
-                    Each project is approached with a customized approach to
-                    ensure it reflects our clients' unique needs and visions.
-                  </p>
-                  <p className="mil-up">
-                    Fusce fermentum velit nulla duis tempor id porta est
-                    maecenas, magnis quam sapien placerat faucibus phasellus
-                    proin aliquet, magna nostra netus volutpat parturient donec
-                    nec facilisis.
-                  </p>
-                </div>
-                <div className="col-xl-5 mil-mb-100">
-                  <div className="mil-image-simple mil-vert mil-up">
-                    <img
-                      loading="lazy"
-                      src="img/services/3.png"
-                      alt="img"
-                      data-value-1={1}
-                      data-value-2="1.1"
-                      className="mil-scale-img"
-                    />
+                </li>
+                <li className="mil-up" data-count="2">
+                  <div className="mil-service-item">
+                    <h4 className="mil-mb-15">Centralized Gas Systems</h4>
                   </div>
-                </div>
-              </div>
-              <div className="row flex-sm-row-reverse justify-content-between align-items-center">
-                <div className="col-xl-6 mil-mb-100">
-                  <div className="mil-suptitle mil-sm mil-accent mil-mb-30 mil-up">
-                    TECHNOLOGY
+                </li>
+                <li className="mil-up" data-count="3">
+                  <div className="mil-service-item">
+                    <h4 className="mil-mb-15">Balcony Gas Systems</h4>
                   </div>
-                  <h3 className="mil-mb-30 mil-up">Innovative technology:</h3>
-                  <p className="mil-up mil-mb-30">
-                    We use the latest tools and technologies in architec design
-                    to ensure accuracy and efficiency in each project, from
-                    conception to delivery.
-                  </p>
-                  <p className="mil-up">
-                    Fusce fermentum velit nulla duis tempor id porta est
-                    maecenas, magnis quam sapien placerat faucibus{" "}
-                  </p>
-                </div>
-                <div className="col-xl-5 mil-mb-100">
-                  <div className="mil-image-simple mil-vert mil-up">
-                    <img
-                      loading="lazy"
-                      src="img/services/4.png"
-                      alt="img"
-                      data-value-1={1}
-                      data-value-2="1.1"
-                      className="mil-scale-img"
-                    />
+                </li>
+                <li className="mil-up" data-count="4">
+                  <div className="mil-service-item">
+                    <h4 className="mil-mb-15">Electrical Systems</h4>
                   </div>
-                </div>
-              </div>
-              <div className="row justify-content-between align-items-center">
-                <div className="col-xl-6 mil-mb-100">
-                  <div className="mil-suptitle mil-sm mil-accent mil-mb-30 mil-up">
-                    SUSTAINABILITY
+                </li>
+                <li className="mil-up" data-count="5">
+                  <div className="mil-service-item">
+                    <h4 className="mil-mb-15">Plumbing Systems</h4>
                   </div>
-                  <h3 className="mil-mb-30 mil-up">
-                    Integrated Sustainability:
-                  </h3>
-                  <p className="mil-up mil-mb-30">
-                    Our approach incorporates sustainable and eco-friendly
-                    practices, ensuring that each design contributes to the
-                    well-being of the environment.
-                  </p>
-                  <p className="mil-up">
-                    Fusce fermentum velit nulla duis tempor id porta est
-                    maecenas, magnis quam sapien placerat faucibus{" "}
-                  </p>
-                </div>
-                <div className="col-xl-5 mil-mb-100">
-                  <div className="mil-image-simple mil-vert mil-up">
-                    <img
-                      loading="lazy"
-                      src="img/services/5.png"
-                      alt="img"
-                      data-value-1={1}
-                      data-value-2="1.1"
-                      className="mil-scale-img"
-                    />
+                </li>
+                <li className="mil-up" data-count="6">
+                  <div className="mil-service-item">
+                    <h4 className="mil-mb-15">Road Construction</h4>
                   </div>
-                </div>
-              </div>
+                </li>
+                <li className="mil-up" data-count="7">
+                  <div className="mil-service-item">
+                    <h4 className="mil-mb-15">Steel Structure Building Construction</h4>
+                  </div>
+                </li>
+                <li className="mil-up" data-count="8">
+                  <div className="mil-service-item">
+                    <h4 className="mil-mb-15">Painting and Maintenance Work</h4>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
