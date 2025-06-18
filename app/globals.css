@@ -30,6 +30,19 @@ html.theme-dark .mil-wrapper {
   background-color: #212121;
 }
 
+html.theme-dark h1,
+html.theme-dark h2,
+html.theme-dark h3,
+html.theme-dark h4,
+html.theme-dark h5,
+html.theme-dark h6 {
+  color: #FFFFFF !important;
+}
+
+html.theme-dark .mil-dark {
+  color: #FFFFFF !important;
+}
+
 .mil-theme-toggle {
   background: none;
   border: none;
