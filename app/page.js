@@ -3,6 +3,9 @@ import MoorkLayout from "@/layout/MoorkLayout";
 import { sliderProps } from "@/utility/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import LottieComponent from "@/components/Lottie";
+import About from "../public/lottie/about.json";
+
 const page = () => {
   return (
     <MoorkLayout header={1}>
@@ -38,7 +41,7 @@ const page = () => {
       </div>
       {/* banner end */}
       {/* about */}
-      <div className="mil-p-200-100">
+      <div className="mil-p-100-50">
         <div className="container">
           <div className="row flex-sm-row-reverse justify-content-between align-items-center">
             <div className="col-lg-5 mil-mb-100">
@@ -47,10 +50,9 @@ const page = () => {
               </div>
               <h2 className="mil-mb-30 mil-up">About Us</h2>
               <p className="mil-mb-50 mil-up">
-                SDS CIVIL &amp; FIRE SECURITY ENGINEERING (PVT) LTD offers
-                end‑to‑end fire protection and engineering services. Our
-                experienced team designs, installs and maintains systems that
-                keep facilities safe and compliant.
+                SDS offers end‑to‑end fire protection and engineering services.
+                Our experienced team designs, installs and maintains systems
+                that keep facilities safe and compliant.
               </p>
               <div className="mil-up">
                 <Link href="about" className="mil-btn mil-btn-sm">
@@ -58,32 +60,9 @@ const page = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-6 mil-mb-100">
-              <div className="mil-illustration-1">
-                <div className="mil-image-position mil-up">
-                  <div className="mil-image-frame">
-                    <img
-                      loading="lazy"
-                      src="img/home-1/2.png"
-                      alt="img"
-                      data-value-1={1}
-                      data-value-2="1.1"
-                      className="mil-scale-img"
-                    />
-                  </div>
-                </div>
-                <div className="mil-image-position mil-up">
-                  <div className="mil-image-frame">
-                    <img
-                      loading="lazy"
-                      src="img/home-1/3.png"
-                      alt="img"
-                      data-value-1={1}
-                      data-value-2="1.1"
-                      className="mil-scale-img"
-                    />
-                  </div>
-                </div>
+            <div className="col-lg-6 ">
+              <div className="">
+                <LottieComponent source={About} width={600} height={600} />
               </div>
             </div>
           </div>

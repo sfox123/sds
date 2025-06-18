@@ -16,35 +16,9 @@ const HeaderMenu = () => {
   return (
     <Fragment>
       <li
-        className={`mil-has-children ${
-          currentPath.includes("home") || currentPath == "/"
-            ? "mil-current"
-            : ""
-        }`}
+        className={`${activeMenuFuntion(["home"])} ${currentPath === "/" ? "mil-current" : ""}`}
       >
-        <a href="#" onClick={(e) => e.preventDefault()}>
-          Home
-        </a>
-        <ul>
-          <li>
-            <Link href="/">Home 1</Link>
-          </li>
-          <li>
-            <Link href="home-2">Home 2</Link>
-          </li>
-          <li>
-            <Link href="home-3">Home 3</Link>
-          </li>
-          <li>
-            <Link href="home-4">Home 4</Link>
-          </li>
-          <li>
-            <Link href="home-5">Home 5</Link>
-          </li>
-          <li>
-            <Link href="home-6">Home 6</Link>
-          </li>
-        </ul>
+        <Link href="/">Home</Link>
       </li>
       <li className={`${activeMenuFuntion(["about"])}`}>
         <Link href="about">About us</Link>
@@ -52,32 +26,14 @@ const HeaderMenu = () => {
       <li className={`${activeMenuFuntion(["services"])}`}>
         <Link href="services">Services</Link>
       </li>
-      <li className={`mil-has-children ${activeMenuFuntion(["work"])}`}>
-        <a href="#" onClick={(e) => e.preventDefault()}>
-          Works
-        </a>
-        <ul>
-          <li>
-            <Link href="works-1">List Home 1</Link>
-          </li>
-          <li>
-            <Link href="works-2">List Home 2</Link>
-          </li>
-          <li>
-            <Link href="works-3">List Home 3</Link>
-          </li>
-          <li>
-            <Link href="work">Single work</Link>
-          </li>
-        </ul>
+      <li className={`${activeMenuFuntion(["work"])}`}>
+        <a href="/works-1">Works</a>
       </li>
       <li
         className={`mil-has-children ${activeMenuFuntion([
-          "blog",
-          "publication",
           "contact",
-          "store",
-          "cart",
+          "projects",
+          "clients",
         ])}`}
       >
         <a href="#.">Pages</a>
@@ -86,19 +42,10 @@ const HeaderMenu = () => {
             <Link href="contact">Contact</Link>
           </li>
           <li>
-            <Link href="blog">Blog</Link>
+            <Link href="projects">Projects</Link>
           </li>
           <li>
-            <Link href="publication">Publication</Link>
-          </li>
-          <li>
-            <Link href="store">Store</Link>
-          </li>
-          <li>
-            <Link href="store-item">Store item</Link>
-          </li>
-          <li>
-            <Link href="cart">Cart</Link>
+            <Link href="clients">Clients</Link>
           </li>
         </ul>
       </li>
@@ -109,10 +56,10 @@ const HeaderLeng = () => {
   return (
     <ul>
       <li>
-        <a href="#">En</a>
+        <a href="#">LIGHT</a>
       </li>
       <li>
-        <a href="#">Fr</a>
+        <a href="#">DARK</a>
       </li>
     </ul>
   );
@@ -162,7 +109,7 @@ const Header1 = () => {
           <div className="mil-right">
             <ul className="mil-navigation mil-leng mil-white">
               <li>
-                <a href="#.">En / Fr</a>
+                <a href="#.">LIGHT / DARK</a>
                 <HeaderLeng />
               </li>
             </ul>
