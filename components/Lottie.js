@@ -13,16 +13,18 @@ const LottieComponent = ({
 }) => {
   const { width: screenWidth } = useWindowSize();
 
-  // Adjust size based on screen width
-  const scale = width > screenWidth ? screenWidth / width : 1;
-  const adjustedWidth = width * scale;
-  const adjustedHeight = height * scale;
+  // Adjust container for small screens and keep aspect ratio
+  const containerMaxWidth = screenWidth
+    ? Math.min(width, Math.max(screenWidth - 40, 0))
+    : width;
 
   return (
     <div
       style={{
-        width: adjustedWidth,
-        height: adjustedHeight,
+        width: "100%",
+        maxWidth: containerMaxWidth,
+        margin: "0 auto",
+        aspectRatio: `${width}/${height}`,
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -33,7 +35,7 @@ const LottieComponent = ({
         animationData={source}
         loop={loop}
         autoplay={autoPlay}
-        style={{ width: adjustedWidth, height: adjustedHeight }}
+        style={{ width: "100%", height: "100%" }}
       />
     </div>
   );

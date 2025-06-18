@@ -41,10 +41,10 @@ const page = () => {
       </div>
       {/* banner end */}
       {/* about */}
-      <div className="mil-p-100-50">
+      <div className="mil-p-100-50 about-section">
         <div className="container">
           <div className="row flex-sm-row-reverse justify-content-between align-items-center">
-            <div className="col-lg-5 mil-mb-100">
+            <div className="col-lg-5 mil-mb-100 about-text">
               <div className="mil-suptitle mil-sm mil-accent mil-mb-30 mil-up">
                 About us
               </div>
@@ -60,8 +60,8 @@ const page = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-6 ">
-              <div className="">
+            <div className="col-lg-6">
+              <div className="about-lottie">
                 <LottieComponent source={About} width={600} height={600} />
               </div>
             </div>
