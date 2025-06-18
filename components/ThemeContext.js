@@ -7,14 +7,17 @@ export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
-    const stored = typeof window !== "undefined" ? localStorage.getItem("theme") : null;
+    const stored =
+      typeof window !== "undefined" ? localStorage.getItem("theme") : null;
     if (stored === "light" || stored === "dark") {
       setTheme(stored);
       document.documentElement.classList.remove("theme-light", "theme-dark");
       document.documentElement.classList.add(`theme-${stored}`);
     } else {
-      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const initial = prefersDark ? "dark" : "light";
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: light)").matches;
+      const initial = "light";
       setTheme(initial);
       document.documentElement.classList.add(`theme-${initial}`);
     }
