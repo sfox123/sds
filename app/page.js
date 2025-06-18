@@ -16,7 +16,7 @@ const page = () => {
             <div className="col-xl-6">
               <div className="mil-banner-text-frame">
                 <div className="mil-banner-text">
-                  <div className="mil-suptitle mil-mb-30">
+                  <div className="mil-suptitle mil-sm mil-accent mil-mb-30 mil-up">
                     FIRE &amp; CIVIL ENGINEERING
                   </div>
                   <h1
