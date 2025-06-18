@@ -14,3 +14,27 @@
 .mil-accordion-group.mil-active .mil-accordion-content {
   height: 100% !important;
 }
+
+html.theme-dark {
+  background-color: #212121;
+  color: #C4C4C4;
+}
+
+html.theme-dark body {
+  background-color: #212121;
+  color: #C4C4C4;
+}
+
+html.theme-dark .mil-content,
+html.theme-dark .mil-wrapper {
+  background-color: #212121;
+}
+
+.mil-theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}

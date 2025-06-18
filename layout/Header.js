@@ -3,6 +3,8 @@ import { moorkUtility } from "@/utility";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Fragment, useEffect, useState } from "react";
+import ThemeToggle from "@/components/ThemeToggle";
+import { useTheme } from "@/components/ThemeContext";
 
 const HeaderMenu = () => {
   useEffect(() => {
@@ -86,8 +88,9 @@ const Header = ({ header }) => {
 };
 const Header1 = () => {
   const [toggle, setToggle] = useState(false);
+  const { theme } = useTheme();
   return (
-    <div className="mil-top-panel-frame">
+    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -107,12 +110,7 @@ const Header1 = () => {
             </nav>
           </div>
           <div className="mil-right">
-            <ul className="mil-navigation mil-leng mil-white">
-              <li>
-                <a href="#.">LIGHT / DARK</a>
-                <HeaderLeng />
-              </li>
-            </ul>
+            <ThemeToggle />
             <div
               className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
               onClick={() => setToggle(!toggle)}
@@ -127,8 +125,9 @@ const Header1 = () => {
 };
 const Header2 = () => {
   const [toggle, setToggle] = useState(false);
+  const { theme } = useTheme();
   return (
-    <div className="mil-top-panel-frame">
+    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -147,14 +146,7 @@ const Header2 = () => {
             </nav>
           </div>
           <div className="mil-right">
-            <ul className="mil-navigation mil-leng mil-white">
-              <li>
-                <a href="#." style={{ color: "#898D96" }}>
-                  En / Fr
-                </a>
-                <HeaderLeng />
-              </li>
-            </ul>
+            <ThemeToggle />
             <div
               className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
               onClick={() => setToggle(!toggle)}
@@ -169,8 +161,9 @@ const Header2 = () => {
 };
 const Header3 = () => {
   const [toggle, setToggle] = useState(false);
+  const { theme } = useTheme();
   return (
-    <div className="mil-top-panel-frame">
+    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -180,6 +173,7 @@ const Header3 = () => {
             </Link>
           </div>
           <div className="mil-right">
+            <ThemeToggle />
             <nav>
               <ul
                 className={`mil-navigation mil-white ${
@@ -203,8 +197,9 @@ const Header3 = () => {
 };
 const Header4 = () => {
   const [toggle, setToggle] = useState(false);
+  const { theme } = useTheme();
   return (
-    <div className="mil-top-panel-frame">
+    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -214,6 +209,7 @@ const Header4 = () => {
             </Link>
           </div>
           <div className="mil-right">
+            <ThemeToggle />
             <nav>
               <ul className={`mil-navigation ${toggle ? "mil-active" : ""}`}>
                 <HeaderMenu />
@@ -233,8 +229,9 @@ const Header4 = () => {
 };
 const Header5 = () => {
   const [toggle, setToggle] = useState(false);
+  const { theme } = useTheme();
   return (
-    <div className="mil-top-panel-frame">
+    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -253,12 +250,7 @@ const Header5 = () => {
             </nav>
           </div>
           <div className="mil-right">
-            <ul className="mil-navigation mil-leng mil-white">
-              <li>
-                <a href="#.">En / Fr</a>
-                <HeaderLeng />
-              </li>
-            </ul>
+            <ThemeToggle />
             <div
               className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
               onClick={() => setToggle(!toggle)}
@@ -273,8 +265,9 @@ const Header5 = () => {
 };
 const Header6 = () => {
   const [toggle, setToggle] = useState(false);
+  const { theme } = useTheme();
   return (
-    <div className="mil-top-panel-frame mil-dark-panel">
+    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -284,6 +277,7 @@ const Header6 = () => {
             </Link>
           </div>
           <div className="mil-right">
+            <ThemeToggle />
             <nav>
               <ul className={`mil-navigation ${toggle ? "mil-active" : ""}`}>
                 <HeaderMenu />
@@ -303,8 +297,9 @@ const Header6 = () => {
 };
 const DefaultHeader = () => {
   const [toggle, setToggle] = useState(false);
+  const { theme } = useTheme();
   return (
-    <div className="mil-top-panel-frame mil-light-panel">
+    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -323,12 +318,7 @@ const DefaultHeader = () => {
             </nav>
           </div>
           <div className="mil-right">
-            <ul className="mil-navigation mil-leng mil-white">
-              <li>
-                <a href="#.">En / Fr</a>
-                <HeaderLeng />
-              </li>
-            </ul>
+            <ThemeToggle />
             <div
               className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
               onClick={() => setToggle(!toggle)}

@@ -28,6 +28,7 @@ import "@fonts/css/font-awesome.min.css";
 import "@css/plugins/magnific-popup.css";
 
 import "@css/style.css";
+import { ThemeProvider } from "@/components/ThemeContext";
 
 export const metadata = {
   title: "SDS - Fire Safety",
@@ -43,7 +44,9 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${primary_font.variable} ${secondary_font.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   );
 }
