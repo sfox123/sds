@@ -5,8 +5,12 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import LottieComponent from "@/components/Lottie";
 import About from "../public/lottie/about.json";
+import { useTheme } from "@/components/ThemeContext";
 
 const page = () => {
+  const { theme } = useTheme();
+  const headingBg =
+    theme === "dark" ? "rgba(0, 0, 0, 0.6)" : "rgba(255, 255, 255, 0.6)";
   return (
     <MoorkLayout header={1}>
       {/* banner */}
@@ -20,7 +24,7 @@ const page = () => {
                     FIRE &amp; CIVIL ENGINEERING
                   </div>
                   <h1
-                    style={{ backgroundColor: "rgba(255, 255, 255, 0.6)" }}
+                    style={{ backgroundColor: headingBg }}
                     className="mil-display-2 mil-mb-60"
                   >
                     Protecting lives through engineered safety
