@@ -464,8 +464,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="mil-descr mil-up">
-                  <h6 className="mil-mb-10">Eddy Smith</h6>
-                  <p>Creative Director</p>
+                  <h6 className="mil-mb-10">Electrical Work</h6>
                 </div>
               </Link>
             </div>
@@ -484,8 +483,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="mil-descr mil-up">
-                  <h6 className="mil-mb-10">Maria Rodriguez</h6>
-                  <p>Principal Architect</p>
+                  <h6 className="mil-mb-10">Sprinkler Pump</h6>
                 </div>
               </Link>
             </div>
@@ -504,8 +502,9 @@ const page = () => {
                   </div>
                 </div>
                 <div className="mil-descr mil-up">
-                  <h6 className="mil-mb-10">David Chen</h6>
-                  <p>Urban Design Specialist</p>
+                  <h6 className="mil-mb-10">
+                    Fire Sprinkler and Plumbing lines
+                  </h6>
                 </div>
               </Link>
             </div>
@@ -524,8 +523,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="mil-descr mil-up">
-                  <h6 className="mil-mb-10">Lisa Walker</h6>
-                  <p>Interior Architect</p>
+                  <h6 className="mil-mb-10">Sprinkler Distribution Lines</h6>
                 </div>
               </Link>
             </div>
