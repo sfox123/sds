@@ -570,21 +570,31 @@ const page = () => {
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-5 mil-mb-100">
               <div className="mil-suptitle mil-sm mil-accent mil-mb-30 mil-up">
-                ENVIRONMENTAL RESPONSIBILITY
+                WORD FROM CEO
               </div>
               <h2 className="mil-mb-30 mil-up">
-                Sustainable Architecture, Lasting Impact
+                Expertise backed by experience
               </h2>
               <p className="mil-mb-50 mil-up">
-                Explore our dedication to green architecture, where innovation
-                meets environmental stewardship, creating spaces that stand the
-                test of time while preserving the planet.
+                SDS Civil & Fire Security Engineering (Pvt) Ltd was founded in
+                2014 and incorporated as a limited liability company in February
+                2020 by a group of experience engineering professionals Led by
+                the Director/CEO{" "}
+                <b style={{ fontWeight: "bold" }}>R.Shakthitharan</b> to engage
+                in the services of design , engineering and installation of
+                mechanical, electrical and plumbing systems for commercial,
+                industrial and residential buildings.
+                <span style={{ fontWeight: "bold", backgroundColor: "yellow" }}>
+                  We build, renovate and service all types, small & medium scale
+                  building as per customer needs and satisfaction.
+                </span>
+                In our capacity we have undertaken and successfully completed
+                number of projects in Colombo Over the years we have extended
+                our specialized services to both public and private sector
+                institutions in the areas of plumbing and sanitary, electrical
+                systems, and mechanical fire and civil construction projects in
+                Sri Lanka. Sri Lanka.
               </p>
-              <div className="mil-up">
-                <Link href="about" className="mil-btn mil-btn-sm">
-                  Know us more
-                </Link>
-              </div>
             </div>
             <div className="col-lg-6 mil-mb-100">
               <div className="mil-illustration-5">
