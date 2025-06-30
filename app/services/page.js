@@ -4,6 +4,7 @@ import PageBanner from "@/components/PageBanner";
 import MoorkLayout from "@/layout/MoorkLayout";
 
 import tube from "@/public/lottie/tube.json";
+import ScrollLottie from "@/components/ScrollLottie";
 
 const page = () => {
   return (
@@ -18,10 +19,10 @@ const page = () => {
 
       {/* banner end */}
       {/* services */}
-      <div className="mil-p-200-100">
+      <div className="mil-p-200-100 services-section">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
+          <div className="row align-items-center">
+            <div className="col-lg-6 order-lg-1 order-2">
               <h3 className="mil-mb-30 mil-up">
                 Fire Protection and Detection systems
               </h3>
@@ -145,6 +146,14 @@ const page = () => {
                   </div>
                 </li>
               </ul>
+            </div>
+            <div className="col-lg-6 order-lg-2 order-1 mb-60 mb-lg-0">
+              <ScrollLottie
+                animationData={tube}
+                width={920}
+                height={1080}
+                className="scroll-lottie"
+              />
             </div>
           </div>
         </div>

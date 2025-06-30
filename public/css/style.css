@@ -3333,6 +3333,18 @@ footer .mil-footer-bottom {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* custom services section adjustments */
+.services-section .scroll-lottie {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 991px) {
+  .services-section .scroll-lottie {
+    margin-bottom: 40px;
+  }
+}
 .about-section .about-text {
   margin-bottom: 50px;
 }
