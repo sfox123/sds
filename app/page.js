@@ -576,22 +576,41 @@ const page = () => {
               <p className="mil-mb-50 mil-up">
                 SDS Civil & Fire Security Engineering (Pvt) Ltd was founded in
                 2014 and incorporated as a limited liability company in February
-                2020 by a group of experience engineering professionals Led by
-                the Director/CEO{" "}
-                <b style={{ fontWeight: "bold" }}>R.Shakthitharan</b> to engage
-                in the services of design , engineering and installation of
-                mechanical, electrical and plumbing systems for commercial,
-                industrial and residential buildings.
-                <span style={{ fontWeight: "bold", backgroundColor: "yellow" }}>
-                  We build, renovate and service all types, small & medium scale
-                  building as per customer needs and satisfaction.
-                </span>
-                In our capacity we have undertaken and successfully completed
-                number of projects in Colombo Over the years we have extended
-                our specialized services to both public and private sector
-                institutions in the areas of plumbing and sanitary, electrical
-                systems, and mechanical fire and civil construction projects in
-                Sri Lanka. Sri Lanka.
+                2020 by a team of seasoned engineering professionals. Guided by
+                the vision and leadership of Director/CEO Mr. R. Shakthitharan,
+                the company has built a strong reputation for delivering
+                comprehensive engineering solutions, with a particular focus on
+                <b style={{ fontWeight: "bold" }}>
+                  {" "}
+                  fire detection and protection systems.
+                </b>
+                <br />
+                We specialize in the design, engineering, and installation of
+                mechanical, electrical, and plumbing (MEP) systems, with an
+                emphasis on mechanical fire safety systems for commercial,
+                industrial, and residential developments. Our services include
+                the construction, renovation, and maintenance of fire hydrants,
+                fire suppression systems, and other critical fire protection
+                infrastructure tailored to meet regulatory standards and
+                client-specific needs.{" "}
+                <span
+                  style={{
+                    fontWeight: "bold",
+                    backgroundColor: "yellow",
+                    color: "black",
+                  }}
+                >
+                  SDS has successfully completed numerous fire safety and MEP
+                  projects in Colombo and across Sri Lanka.
+                </span>{" "}
+                <br />
+                Our portfolio includes work for both public and private sector
+                institutions, providing expert solutions in plumbing and
+                sanitary systems, electrical installations, fire protection
+                engineering, and civil construction.
+                <br />
+                At SDS, ensuring life safety and fire risk mitigation is at the
+                core of everything we do.
               </p>
             </div>
             <div className="col-lg-6 mil-mb-100">

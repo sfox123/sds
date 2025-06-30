@@ -2,7 +2,9 @@ import CallToAction from "@/components/CallToAction";
 import Faq from "@/components/Faq";
 import PageBanner from "@/components/PageBanner";
 import MoorkLayout from "@/layout/MoorkLayout";
-import Link from "next/link";
+
+import tube from "@/public/lottie/tube.json";
+
 const page = () => {
   return (
     <MoorkLayout>
@@ -49,7 +51,9 @@ const page = () => {
                   CCTV, IPTV, PA, PABX, Data &amp; Structured Cabling Solutions.
                 </li>
               </ul>
-              <h3 className="mil-mb-30 mil-up">Plumbing &amp; Sanitary engineering</h3>
+              <h3 className="mil-mb-30 mil-up">
+                Plumbing &amp; Sanitary engineering
+              </h3>
               <ul className="mil-mb-30 mil-up">
                 <li>Hot and cold Water Supply Systems</li>
                 <li>Soil, Waste and storm Water Drainage Systems</li>
@@ -130,7 +134,9 @@ const page = () => {
                 </li>
                 <li className="mil-up" data-count="7">
                   <div className="mil-service-item">
-                    <h4 className="mil-mb-15">Steel Structure Building Construction</h4>
+                    <h4 className="mil-mb-15">
+                      Steel Structure Building Construction
+                    </h4>
                   </div>
                 </li>
                 <li className="mil-up" data-count="8">

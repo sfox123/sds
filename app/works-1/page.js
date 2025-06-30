@@ -9,7 +9,8 @@ const projectsQuery = `*[_type == "project"] | order(priority desc) {
   title,
   "category": category->title, // Assuming you have a category reference
   slug,
-  coverImage
+  coverImage,
+  gallery
 }`;
 
 // Set the revalidation interval for this page
@@ -43,7 +44,7 @@ const ProjectsPage = async () => {
             <div className="col-xl-5">
               {column1Projects.map((project, index) => (
                 <Link
-                  href={`/work/${project.slug?.current}`} // Dynamic link
+                  href={`/work/${project._id}`}
                   key={project._id}
                   className={`mil-project-card ${
                     index % 2 !== 0 ? "mil-long-m" : "" // Apply class for long cards
@@ -61,7 +62,7 @@ const ProjectsPage = async () => {
                   </div>
                   <div className="mil-descr mil-pad-0 mil-up">
                     <h4 className="mil-mb-10">{project.title}</h4>
-                    <p>{project.category || "Modern building design"}</p>
+                    <p>{project.slug?.current}</p>
                   </div>
                 </Link>
               ))}
@@ -71,7 +72,7 @@ const ProjectsPage = async () => {
             <div className="col-xl-5">
               {column2Projects.map((project, index) => (
                 <Link
-                  href={`/work/${project.slug?.current}`}
+                  href={`/work/${project._id}`}
                   key={project._id}
                   className={`mil-project-card ${
                     index % 2 === 0 ? "mil-long-m" : "" // Apply class for long cards
@@ -89,7 +90,7 @@ const ProjectsPage = async () => {
                   </div>
                   <div className="mil-descr mil-pad-0 mil-up">
                     <h4 className="mil-mb-10">{project.title}</h4>
-                    <p>{project.category || "Modern building design"}</p>
+                    <p>{project.slug?.current}</p>
                   </div>
                 </Link>
               ))}
