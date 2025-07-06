@@ -3,7 +3,7 @@ import Faq from "@/components/Faq";
 import PageBanner from "@/components/PageBanner";
 import MoorkLayout from "@/layout/MoorkLayout";
 
-import tube from "@/public/lottie/tube.json";
+import tube from "@/public/lottie/tube_2.json";
 import ScrollLottie from "@/components/ScrollLottie";
 
 const page = () => {
@@ -147,11 +147,14 @@ const page = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-6 order-lg-2 order-1 mb-60 mb-lg-0">
+            <div
+              style={{ alignSelf: "flex-start" }}
+              className="col-lg-6 order-lg-2 order-1 mb-60 mb-lg-0"
+            >
               <ScrollLottie
                 animationData={tube}
                 width={920}
-                height={1080}
+                height={3024}
                 className="scroll-lottie"
               />
             </div>
