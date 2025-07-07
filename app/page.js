@@ -301,7 +301,7 @@ const page = () => {
       </div>
       {/* counters end */}
       {/* projects */}
-      <div className="mil-p-200-200">
+      {/* <div className="mil-p-200-200">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6 mil-text-center">
@@ -431,10 +431,10 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* projects end */}
       {/* team */}
-      <div className="mil-p-200-170 mil-bg-soft">
+      <div className="mil-p-100-170 mil-bg-soft">
         <div className="container">
           <div className="row justify-content-center align-items-center">
             <div className="col-lg-6 mil-text-center">
