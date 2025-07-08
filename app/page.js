@@ -95,212 +95,444 @@ const page = () => {
                 className="swiper-container mil-projects-1"
               >
                 {/* Completed projects */}
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/projects/1.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/projects/1.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
-                      <h4 className="mil-mb-10">Address Tower Plumbing - Sterling Wilson</h4>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
+                      <h4 className="mil-mb-10">
+                        Address Tower Plumbing - Sterling Wilson
+                      </h4>
                       <p className="mil-mb-20">Completed</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/projects/2.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/projects/2.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
-                      <h4 className="mil-mb-10">Skyline Housing Dehiwala - Fire Protection</h4>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
+                      <h4 className="mil-mb-10">
+                        Skyline Housing Dehiwala - Fire Protection
+                      </h4>
                       <p className="mil-mb-20">Completed</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/projects/3.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/projects/3.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
-                      <h4 className="mil-mb-10">Dutch Lanka Roadwork Sapugaskanda</h4>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
+                      <h4 className="mil-mb-10">
+                        Dutch Lanka Roadwork Sapugaskanda
+                      </h4>
                       <p className="mil-mb-20">Completed</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/projects/4.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/projects/4.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
-                      <h4 className="mil-mb-10">Torrington Pavilion - Fire Systems</h4>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
+                      <h4 className="mil-mb-10">
+                        Torrington Pavilion - Fire Systems
+                      </h4>
                       <p className="mil-mb-20">Completed</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/projects/5.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/projects/5.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
-                      <h4 className="mil-mb-10">Skyline Housing Dehiwala - Gas Lines</h4>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
+                      <h4 className="mil-mb-10">
+                        Skyline Housing Dehiwala - Gas Lines
+                      </h4>
                       <p className="mil-mb-20">Completed</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/projects/6.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/projects/6.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
                       <h4 className="mil-mb-10">Hambanthota Roadwork - RDA</h4>
                       <p className="mil-mb-20">Completed</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/home-6/1.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/home-6/1.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
-                      <h4 className="mil-mb-10">Ratnam Hospital Roofing Works</h4>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
+                      <h4 className="mil-mb-10">
+                        Ratnam Hospital Roofing Works
+                      </h4>
                       <p className="mil-mb-20">Completed</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/home-6/2.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/home-6/2.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
-                      <h4 className="mil-mb-10">Royal Property 8-floor Gas Install</h4>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
+                      <h4 className="mil-mb-10">
+                        Royal Property 8-floor Gas Install
+                      </h4>
                       <p className="mil-mb-20">Completed</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
                 {/* Ongoing projects */}
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/home-6/3.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/home-6/3.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
-                      <h4 className="mil-mb-10">ITC Colombo 1 - Fire Systems</h4>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
+                      <h4 className="mil-mb-10">
+                        ITC Colombo 1 - Fire Systems
+                      </h4>
                       <p className="mil-mb-20">Ongoing</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/home-6/4.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/home-6/4.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
                       <h4 className="mil-mb-10">JPKL Apartment - Fire & Gas</h4>
                       <p className="mil-mb-20">Ongoing</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/home-6/5.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/home-6/5.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
-                      <h4 className="mil-mb-10">Regal Court Colombo 06 - Fire</h4>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
+                      <h4 className="mil-mb-10">
+                        Regal Court Colombo 06 - Fire
+                      </h4>
                       <p className="mil-mb-20">Ongoing</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/home-6/6.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/home-6/6.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
-                      <h4 className="mil-mb-10">Skyline De Alwis - Fire & Gas</h4>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
+                      <h4 className="mil-mb-10">
+                        Skyline De Alwis - Fire & Gas
+                      </h4>
                       <p className="mil-mb-20">Ongoing</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/home-6/7.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/home-6/7.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
                       <h4 className="mil-mb-10">Nexus Apartments - Fire</h4>
                       <p className="mil-mb-20">Ongoing</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/home-6/8.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/home-6/8.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
                       <h4 className="mil-mb-10">American College Roofing</h4>
                       <p className="mil-mb-20">Ongoing</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
                   </Link>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide" data-swiper-parallax-scale="0.15">
+                <SwiperSlide
+                  className="swiper-slide"
+                  data-swiper-parallax-scale="0.15"
+                >
                   <Link href="work" className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
-                        <img loading="lazy" src="img/home-6/9.png" alt="project" data-value-1={1} data-value-2="1.1" className="mil-scale-img" />
+                        <img
+                          loading="lazy"
+                          src="img/home-6/9.png"
+                          alt="project"
+                          data-value-1={1}
+                          data-value-2="1.1"
+                          className="mil-scale-img"
+                        />
                       </div>
                     </div>
-                    <div className="mil-descr mil-p-0" data-swiper-parallax={-100} data-swiper-parallax-opacity={0}>
-                      <h4 className="mil-mb-10">Fentons - City Center Suppression</h4>
+                    <div
+                      className="mil-descr mil-p-0"
+                      data-swiper-parallax={-100}
+                      data-swiper-parallax-opacity={0}
+                    >
+                      <h4 className="mil-mb-10">
+                        Fentons - City Center Suppression
+                      </h4>
                       <p className="mil-mb-20">Ongoing</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
@@ -327,24 +559,24 @@ const page = () => {
             <div className="col-lg-3 mil-mb-50">
               <h3 className="mil-accent mil-mb-10">
                 +{" "}
-                <span className="mil-counter" data-number={10}>
-                  10
+                <span className="mil-counter" data-number={21}>
+                  21
                 </span>
               </h3>
               <p className="mil-dark mil-mb-15">Years of Excellence</p>
               <p>
-                More than a decade shaping the architectural future since our
-                creation in 2010.
+                More than a decade shaping the Fire Safety since our creation in
+                2014.
               </p>
             </div>
             <div className="col-lg-3 mil-mb-50">
               <h3 className="mil-accent mil-mb-10">
-                <span className="mil-counter" data-number={10}>
-                  99
+                <span className="mil-counter" data-number={100}>
+                  100
                 </span>{" "}
                 %
               </h3>
-              <p className="mil-dark mil-mb-15">Gender equality rate</p>
+              <p className="mil-dark mil-mb-15">Satisfaction rate</p>
               <p>
                 Emphasizes our commitment to a diverse and inclusive work
                 environment.
@@ -353,15 +585,14 @@ const page = () => {
             <div className="col-lg-3 mil-mb-50">
               <h3 className="mil-accent mil-mb-10">
                 +
-                <span className="mil-counter" data-number={10}>
+                <span className="mil-counter" data-number={60}>
                   60
-                </span>{" "}
-                Pro
+                </span>
               </h3>
-              <p className="mil-dark mil-mb-15">Team Diversity</p>
+              <p className="mil-dark mil-mb-15">Projects</p>
               <p>
-                More than a decade shaping the architectural future since our
-                creation in 2010.
+                Over 60 successful projects completed, showcasing our expertise
+                in fire safety solutions.
               </p>
             </div>
           </div>
@@ -603,27 +834,71 @@ const page = () => {
       <div className="mil-bg-soft mil-p-0-170">
         <div className="container">
           <p className="mil-mb-100 mil-dark mil-up">
-            Building Futures Together with Our Esteemed Partners
+            Building Futures Together with Our Product Partners
           </p>
           <div className="row">
             <div className="col-6 col-xl-3 mil-mb-30">
               <div className="mil-brand-frame mil-up">
-                <img loading="lazy" src="img/brands/1.svg" alt="brand" />
+                <img loading="lazy" src="img/brands/1.png" alt="brand" />
               </div>
             </div>
             <div className="col-6 col-xl-3 mil-mb-30">
               <div className="mil-brand-frame mil-up">
-                <img loading="lazy" src="img/brands/2.svg" alt="brand" />
+                <img loading="lazy" src="img/brands/2.png" alt="brand" />
               </div>
             </div>
             <div className="col-6 col-xl-3 mil-mb-30">
               <div className="mil-brand-frame mil-up">
-                <img loading="lazy" src="img/brands/3.svg" alt="brand" />
+                <img loading="lazy" src="img/brands/3.png" alt="brand" />
               </div>
             </div>
             <div className="col-6 col-xl-3 mil-mb-30">
               <div className="mil-brand-frame mil-up">
-                <img loading="lazy" src="img/brands/4.svg" alt="brand" />
+                <img loading="lazy" src="img/brands/4.png" alt="brand" />
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/5.png" alt="brand" />
+              </div>
+            </div>
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/6.png" alt="brand" />
+              </div>
+            </div>
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/7.png" alt="brand" />
+              </div>
+            </div>
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/8.png" alt="brand" />
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/9.png" alt="brand" />
+              </div>
+            </div>
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/10.png" alt="brand" />
+              </div>
+            </div>
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/11.png" alt="brand" />
+              </div>
+            </div>
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/12.png" alt="brand" />
               </div>
             </div>
           </div>
