@@ -34,7 +34,6 @@ const HeaderMenu = () => {
       <li
         className={`mil-has-children ${activeMenuFuntion([
           "contact",
-          "projects",
           "clients",
         ])}`}
       >
@@ -44,26 +43,11 @@ const HeaderMenu = () => {
             <Link href="contact">Contact</Link>
           </li>
           <li>
-            <Link href="projects">Projects</Link>
-          </li>
-          <li>
             <Link href="clients">Clients</Link>
           </li>
         </ul>
       </li>
     </Fragment>
-  );
-};
-const HeaderLeng = () => {
-  return (
-    <ul>
-      <li>
-        <a href="#">LIGHT</a>
-      </li>
-      <li>
-        <a href="#">DARK</a>
-      </li>
-    </ul>
   );
 };
 
@@ -90,7 +74,9 @@ const Header1 = () => {
   const [toggle, setToggle] = useState(false);
   const { theme } = useTheme();
   return (
-    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
+    <div
+      className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}
+    >
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -127,7 +113,9 @@ const Header2 = () => {
   const [toggle, setToggle] = useState(false);
   const { theme } = useTheme();
   return (
-    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
+    <div
+      className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}
+    >
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -163,7 +151,9 @@ const Header3 = () => {
   const [toggle, setToggle] = useState(false);
   const { theme } = useTheme();
   return (
-    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
+    <div
+      className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}
+    >
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -199,7 +189,9 @@ const Header4 = () => {
   const [toggle, setToggle] = useState(false);
   const { theme } = useTheme();
   return (
-    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
+    <div
+      className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}
+    >
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -231,7 +223,9 @@ const Header5 = () => {
   const [toggle, setToggle] = useState(false);
   const { theme } = useTheme();
   return (
-    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
+    <div
+      className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}
+    >
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -267,7 +261,9 @@ const Header6 = () => {
   const [toggle, setToggle] = useState(false);
   const { theme } = useTheme();
   return (
-    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
+    <div
+      className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}
+    >
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
@@ -299,7 +295,9 @@ const DefaultHeader = () => {
   const [toggle, setToggle] = useState(false);
   const { theme } = useTheme();
   return (
-    <div className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}>
+    <div
+      className={`mil-top-panel-frame ${theme === "dark" ? "mil-dark-panel" : "mil-light-panel"}`}
+    >
       <div className="container">
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}

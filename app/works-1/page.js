@@ -84,7 +84,7 @@ const ProjectsPage = async () => {
                         loading="lazy"
                         src={urlFor(project.coverImage).url()}
                         alt={project.title}
-                        className="mil-scale-img"
+                        className=""
                       />
                     </div>
                   </div>

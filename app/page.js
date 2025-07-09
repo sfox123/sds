@@ -902,6 +902,33 @@ const page = () => {
               </div>
             </div>
           </div>
+          <div className="row">
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/13.png" alt="brand" />
+              </div>
+            </div>
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/14.png" alt="brand" />
+              </div>
+            </div>
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/15.png" alt="brand" />
+              </div>
+            </div>
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/16.png" alt="brand" />
+              </div>
+            </div>
+            <div className="col-6 col-xl-3 mil-mb-30">
+              <div className="mil-brand-frame mil-up">
+                <img loading="lazy" src="img/brands/17.png" alt="brand" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {/* brands end */}
