@@ -1,15 +1,19 @@
-import nodemailer from 'nodemailer';
-import { NextResponse } from 'next/server';
+import nodemailer from "nodemailer";
+import { NextResponse } from "next/server";
 
 export async function POST(request) {
   try {
     const { name, email, phone, subject, message } = await request.json();
 
     const transporter = nodemailer.createTransport({
-      service: 'gmail',
+      service: "gmail",
       auth: {
         user: process.env.SMTP_USER,
+        accessToken: process.env.ACCESS_TOKEN,
         pass: process.env.SMTP_PASS,
+        clientId: process.env.SMTP_CLIENT_ID,
+        clientSecret: process.env.SMTP_CLIENT_SECRET,
+        refreshToken: process.env.SMTP_REFRESH_TOKEN,
       },
     });
 
@@ -30,7 +34,7 @@ export async function POST(request) {
     const userMail = {
       from: process.env.SMTP_USER,
       to: email,
-      subject: 'We received your message',
+      subject: "We received your message",
       html: `
         <p>Hi ${name},</p>
         <p>Thank you for contacting us. We will review your enquiry and get back to you shortly.</p>
