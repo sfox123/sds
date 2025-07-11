@@ -42,38 +42,41 @@ export const projectSlides = [
   {
     src: "img/home-6/3.png",
     title: "ITC Colombo 1 - Fire Systems",
-    status: "Ongoing",
+    status: "Completed",
   },
   {
     src: "img/home-6/4.png",
     title: "JPKL Apartment - Fire & Gas",
-    status: "Ongoing",
+    status: "Completed",
   },
   {
     src: "img/home-6/5.png",
     title: "Regal Court Colombo 06 - Fire",
-    status: "Ongoing",
+    status: "Completed",
   },
   {
     src: "img/home-6/6.png",
     title: "Skyline De Alwis - Fire & Gas",
-    status: "Ongoing",
+    status: "Completed",
   },
   {
     src: "img/home-6/7.png",
     title: "Nexus Apartments - Fire",
-    status: "Ongoing",
+    status: "Completed",
   },
   {
     src: "img/home-6/8.png",
     title: "American College Roofing",
-    status: "Ongoing",
+    status: "Completed",
   },
   {
     src: "img/home-6/9.png",
     title: "Fentons - City Center Suppression",
-    status: "Ongoing",
+    status: "Completed",
   },
 ];
 
-export const brandImages = Array.from({ length: 17 }, (_, i) => `img/brands/${i + 1}.png`);
+export const brandImages = Array.from(
+  { length: 17 },
+  (_, i) => `img/brands/${i + 1}.png`
+);
