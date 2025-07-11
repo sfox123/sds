@@ -1,7 +1,42 @@
+"use client";
 import CallToAction from "@/components/CallToAction";
 import PageBanner from "@/components/PageBanner";
 import MoorkLayout from "@/layout/MoorkLayout";
+import { useState } from "react";
+
 const page = () => {
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
+  const [status, setStatus] = useState(null);
+
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("loading");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (res.ok) {
+        setStatus("success");
+        setForm({ name: "", email: "", phone: "", subject: "", message: "" });
+      } else {
+        setStatus("error");
+      }
+    } catch (err) {
+      setStatus("error");
+    }
+  };
   return (
     <MoorkLayout>
       <PageBanner
@@ -63,12 +98,15 @@ const page = () => {
               </h2>
             </div>
             <div className="col-lg-8 mil-mb-100">
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-lg-6">
                     <input
                       type="text"
                       className="mil-input mil-mb-30 mil-up"
+                      name="name"
+                      value={form.name}
+                      onChange={handleChange}
                       placeholder="Name"
                     />
                   </div>
@@ -76,6 +114,9 @@ const page = () => {
                     <input
                       type="email"
                       className="mil-input mil-mb-30 mil-up"
+                      name="email"
+                      value={form.email}
+                      onChange={handleChange}
                       placeholder="Email"
                     />
                   </div>
@@ -84,18 +125,25 @@ const page = () => {
                   <input
                     type="number"
                     className="mil-input mil-mb-30 mil-up"
+                    name="phone"
+                    value={form.phone}
+                    onChange={handleChange}
                     placeholder="Phone"
                   />
                   <input
                     type="text"
                     className="mil-input mil-mb-30 mil-up"
+                    name="subject"
+                    value={form.subject}
+                    onChange={handleChange}
                     placeholder="Subject"
                   />
                   <textarea
-                    name="Message"
+                    name="message"
                     placeholder="Message"
                     className="mil-mb-30 mil-up"
-                    defaultValue={""}
+                    value={form.message}
+                    onChange={handleChange}
                   />
                   <div className="mil-checkbox-frame mil-mb-30 mil-up">
                     <div className="mil-checkbox">
@@ -114,6 +162,12 @@ const page = () => {
                       Submit
                     </button>
                   </div>
+                  {status === "success" && (
+                    <p className="mil-mt-20">Thank you for your message.</p>
+                  )}
+                  {status === "error" && (
+                    <p className="mil-mt-20">Something went wrong. Please try again.</p>
+                  )}
                 </div>
               </form>
             </div>
