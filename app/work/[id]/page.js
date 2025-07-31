@@ -49,24 +49,6 @@ const ProjectPage = async ({ params }) => {
       {/* project info */}
       <div className="mil-p-0-200">
         <div className="container">
-          <div className="mil-post-info mil-mb-100 mil-up">
-            <h6>Share:</h6>
-            <a href="#." className="mil-text-link">
-              Facebook
-            </a>
-            <a href="#." className="mil-text-link">
-              X.com
-            </a>
-            <a href="#." className="mil-text-link">
-              Pinterest
-            </a>
-            <a href="#." className="mil-text-link">
-              Linkedin
-            </a>
-            <a href="#." className="mil-text-link">
-              Tiktok
-            </a>
-          </div>
           <div className="row justify-content-between">
             <div className="col-xl-6 mil-mb-100">
               <h2 className="mil-mb-50 mil-up">{project.title}</h2>

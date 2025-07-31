@@ -6,6 +6,8 @@ import { Fragment, useEffect, useState } from "react";
 import ThemeToggle from "@/components/ThemeToggle";
 import { useTheme } from "@/components/ThemeContext";
 
+import logo from "@/public/img/logo-1.png";
+
 const HeaderMenu = () => {
   useEffect(() => {
     moorkUtility.stickMenu();
@@ -15,6 +17,7 @@ const HeaderMenu = () => {
     return value.some((el) => currentPath.includes(el)) ? "mil-current" : "";
   };
 
+  const { src } = logo;
   return (
     <Fragment>
       <li
@@ -70,6 +73,7 @@ const Header = ({ header }) => {
       return <DefaultHeader />;
   }
 };
+
 const Header1 = () => {
   const [toggle, setToggle] = useState(false);
   const { theme } = useTheme();
@@ -85,8 +89,8 @@ const Header1 = () => {
               <img
                 style={{ width: "70%" }}
                 loading="lazy"
-                src="img/logo-4.png"
-                alt="SDS"
+                src={src.src}
+                alt="SDS BR"
               />
             </Link>
             <nav>
@@ -121,7 +125,7 @@ const Header2 = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo mil-logo-sm">
-              <img loading="lazy" src="img/logo-5.png" alt="SDS" />
+              <img loading="lazy" src="img/logo-4.png" alt="SDS" />
             </Link>
             <nav>
               <ul
@@ -159,7 +163,7 @@ const Header3 = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo mil-logo-sm">
-              <img loading="lazy" src="img/logo-4.png" alt="SDS" />
+              <img loading="lazy" src="img/logo-4.png" alt="SDS s" />
             </Link>
           </div>
           <div className="mil-right">
@@ -197,7 +201,7 @@ const Header4 = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo mil-logo-sm">
-              <img loading="lazy" src="img/logo-4.png" alt="SDS" />
+              <img loading="lazy" src="img/logo-4.png" alt="SDS S" />
             </Link>
           </div>
           <div className="mil-right">
@@ -231,7 +235,7 @@ const Header5 = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo mil-logo-sm">
-              <img loading="lazy" src="img/logo-5.png" alt="SDS" />
+              <img loading="lazy" src="img/logo-5.png" alt="SDS S" />
             </Link>
             <nav>
               <ul
@@ -303,7 +307,7 @@ const DefaultHeader = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo">
-              <img loading="lazy" src="img/logo-1.png" alt="SDS" />
+              <img loading="lazy" src={logo.src} alt="SDS R" />
             </Link>
             <nav>
               <ul
