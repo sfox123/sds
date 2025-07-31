@@ -88,7 +88,7 @@ const Header1 = () => {
               <img
                 style={{ width: "70%" }}
                 loading="lazy"
-                src={src.src}
+                src={logo.src}
                 alt="SDS BR"
               />
             </Link>
