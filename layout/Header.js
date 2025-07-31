@@ -84,13 +84,8 @@ const Header1 = () => {
         <div className="mil-top-panel">
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
-            <Link href="/" className="mil-logo mil-logo-sm">
-              <img
-                style={{ width: "70%" }}
-                loading="lazy"
-                src={logo.src}
-                alt="SDS BR"
-              />
+            <Link href="/" className="mil-logo">
+              <img loading="lazy" src={logo.src} alt="SDS R" />
             </Link>
             <nav>
               <ul className={`mil-navigation ${toggle ? "mil-active" : ""}`}>
