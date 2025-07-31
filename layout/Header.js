@@ -17,7 +17,6 @@ const HeaderMenu = () => {
     return value.some((el) => currentPath.includes(el)) ? "mil-current" : "";
   };
 
-  const { src } = logo;
   return (
     <Fragment>
       <li
